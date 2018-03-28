@@ -23,21 +23,6 @@ if theme.comment.duoshuo
         document.getElementsByTagName('body')[0].appendChild(ds);
     })();
 
-if theme.comment.gitment && theme.comment.gitment.owner && theme.comment.gitment.repo && theme.comment.gitment.client_id && theme.comment.gitment.client_secret
-  #container
-  link(rel='stylesheet', href='https://imsun.github.io/gitment/style/default.css')
-  script(src='https://imsun.github.io/gitment/dist/gitment.browser.js')
-  script.
-    var gitment = new Gitment({
-      owner: '#{theme.comment.gitment.owner}',
-      repo: '#{theme.comment.gitment.repo}',
-      oauth: {
-        client_id: '#{theme.comment.gitment.client_id}',
-        client_secret: '#{theme.comment.gitment.client_secret}',
-      },
-    })
-    gitment.render('container')
-
 if theme.comment.disqus
   script.
     var disqus_shortname = '#{theme.comment.disqus}';

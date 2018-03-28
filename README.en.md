@@ -6,8 +6,6 @@ A simple theme for [Hexo](https://hexo.io/) with great performance on different 
 
 - [Preview](http://chaoo.oschina.io/)
 
-[![BlueLake template preview](http://obzf7z93c.bkt.clouddn.com/themeBlueLake.png "BlueLake template preview")](http://chaoo.oschina.io/)
-
 ## Installation
 
 ### Install theme and renderers:

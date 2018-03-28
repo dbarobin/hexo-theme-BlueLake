@@ -6,8 +6,6 @@
 
 - [点击预览](http://chaoo.oschina.io/)
 
-[![BlueLake template preview](http://obzf7z93c.bkt.clouddn.com/themeBlueLake.png "BlueLake template preview")](http://chaoo.oschina.io/)
-
 ## 安装
 
 ### 安装主题和渲染:

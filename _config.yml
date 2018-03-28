@@ -1,0 +1,131 @@
+##########################
+## Site Config Settings ##
+##########################
+
+# Theme version
+version: 2.0.1
+
+# Header
+menu:
+  - page: home
+    directory: https://chainone.xyz
+    icon: fa-home
+  - page: archive
+    directory: archives/
+    icon: fa-archive
+  - page: about
+    directory: about/
+    icon: fa-user
+  - page: rss
+    directory: atom.xml
+    icon: fa-rss
+
+# Sidebar
+widgets:
+  - recent_posts
+  - category
+  - tag
+  - archive
+  #- weibo
+  - links
+
+# Toc
+toc:
+  enable: true
+  number: false
+
+# Static files
+js: js
+css: css
+
+# Date_formats
+date_formats:
+  archive: "MM月DD日"
+  category: "YYYY/MM/DD"
+  post: "MMM DD, YYYY"
+  tag: "YYYY/MM/DD"
+
+# Extensions
+Plugins:
+  hexo-generator-feed
+  hexo-generator-sitemap
+  hexo-generator-baidu-sitemap
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+#sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+#Local search
+local_search: true ## Use a javascript-based local search engine, true/false.
+
+#Cmments
+comment:
+  duoshuo: #chaooo ## duoshuo_shortname
+  disqus: # https-blog-chainone-xyz ## disqus_shortname
+  livere: ## 来必力(data-uid)
+  uyan: ## 友言(uid)
+  cloudTie: ## 网易云跟帖(productKey)
+  changyan: ## 畅言需在下方配置两个参数，此处不填。
+    appid: ## 畅言(appid)
+    appkey: ##畅言(appkey)
+  gitment:
+    id: window.location.pathname
+    owner: BlockchainOne
+    repo: BlockchainOne.github.io
+    client_id: 1a827c3a06d5887e53d7
+    client_secret: bec913eed1a7bef0ce3523dd5b5af48d05dfa0fe
+
+#Share
+baidu_share: false ## 百度分享
+JiaThis_share: ##true ##JiaThis分享
+duoshuo_share: #true ##true 多说分享必须和多说评论一起使用。
+addToAny_share: # AddToAny share. Empty list hides. List items are service name at url. For ex: email for '<a href="https://www.addtoany.com/add_to/email?linkurl=...'
+#  - twitter
+#  - baidu
+#  - facebook
+#  - google_plus
+#  - linkedin
+#  - email
+
+# Analytics
+google_analytics: UA-116059592-1 ## Your Google Analytics tracking id, e.g. UA-42025684-2
+# baidu_analytics: 4939128c1bd5799a5712334af79e22cb ## Your Baidu Analytics tracking id, e.g. 1006843030519956000
+
+# Miscellaneous
+show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
+widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
+busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
+
+# About page
+about:
+  photo_url: https://chainone.xyz/images/avatar.jpg
+  items:
+  - label: email
+    icon: fa-email
+    url: chainone.org@gmail.com
+    title: chainone.org@gmail.com
+  - label: github
+    icon: fa-github
+    url: https://github.com/BlockchainOne
+    title: BlockchainOne
+  - label: weibo
+    icon: fa-weibo
+    url: https://weibo.com/BlockchainAge
+    title: 区块链技术指北
+  - label: twitter
+    icon: fa-twitter
+    url: https://twitter.com/bcageone 
+    title: bcageone
+
+# Links widget. Empty links will hide widget.
+links:
+  - title: 币问
+    url: https://www.bitask.org
